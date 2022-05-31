@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class StoneUIAssistant : MonoBehaviour
+{
+    [SerializeField] private TextWriter textWriter;
+    private Text messageText;
+
+
+    private void Awake()
+    {
+        messageText = transform.Find("Message").Find("messageText").GetComponent<Text>();
+    }
+
+    // Update is called once per frame
+    private void Start()
+    {
+        //messageText.text = "Hello World!";
+        textWriter.AddWriter(messageText, "LEVEL 3", 0.2f);
+    }
+}

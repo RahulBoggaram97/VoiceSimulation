@@ -12,6 +12,6 @@ public class pipeMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        transform.position = Vector2.Lerp(transform.position, new Vector2(transform.position.x-0.5f, transform.position.y), 0.08f);
+        transform.position = Vector2.Lerp(transform.position, new Vector2(transform.position.x-1f, transform.position.y), 0.002f);
 	}
 }

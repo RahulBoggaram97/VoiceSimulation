@@ -84,4 +84,9 @@ public class Ballon : MonoBehaviour {
     {
         anim.SetBool("newBalloon5", true);
     }
+
+    public void ball()
+    {
+        transform.Translate(2, 0, 0);
+    }
 }
