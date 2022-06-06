@@ -15054,17 +15054,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 682d5650a75a8cb499c8de007cd9160c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Registration: {fileID: 0}
-  PatientFee: {fileID: 0}
-  PatientDetails: {fileID: 0}
-  PatientDetailsPg2: {fileID: 0}
-  NewPatientRegister: {fileID: 0}
-  StartGame: {fileID: 0}
-  Types: {fileID: 0}
-  Roster: {fileID: 0}
-  Settings: {fileID: 0}
-  Models: {fileID: 0}
-  NumsAndAlphabets: {fileID: 0}
+  Registration: {fileID: 1858121820}
+  PatientFee: {fileID: 140684715}
+  PatientDetails: {fileID: 2090991782}
+  PatientDetailsPg2: {fileID: 638296543}
+  NewPatientRegister: {fileID: 1986571892}
+  StartGame: {fileID: 1933307745}
+  Types: {fileID: 204171755}
+  Roster: {fileID: 2038297712}
+  Settings: {fileID: 1057914830}
+  Models: {fileID: 1952266220}
+  NumsAndAlphabets: {fileID: 1083467112}
 --- !u!1 &1576826599
 GameObject:
   m_ObjectHideFlags: 0
@@ -16831,7 +16831,7 @@ GameObject:
   - component: {fileID: 1858121823}
   - component: {fileID: 1858121822}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Registration
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17703,7 +17703,7 @@ GameObject:
   - component: {fileID: 1933307748}
   - component: {fileID: 1933307747}
   m_Layer: 5
-  m_Name: Start
+  m_Name: StartGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19119,7 +19119,7 @@ PrefabInstance:
     - target: {fileID: 224083615077523182, guid: 271ac83bd0e2add4e93209a4adb073ca,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 264.33337
+      value: 264.3333
       objectReference: {fileID: 0}
     - target: {fileID: 224083615077523182, guid: 271ac83bd0e2add4e93209a4adb073ca,
         type: 3}
@@ -19129,7 +19129,7 @@ PrefabInstance:
     - target: {fileID: 224083615077523182, guid: 271ac83bd0e2add4e93209a4adb073ca,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 664.83344
+      value: 664.83325
       objectReference: {fileID: 0}
     - target: {fileID: 224083615077523182, guid: 271ac83bd0e2add4e93209a4adb073ca,
         type: 3}
@@ -19269,7 +19269,7 @@ PrefabInstance:
     - target: {fileID: 224650147265630386, guid: 271ac83bd0e2add4e93209a4adb073ca,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 264.33337
+      value: 264.3333
       objectReference: {fileID: 0}
     - target: {fileID: 224650147265630386, guid: 271ac83bd0e2add4e93209a4adb073ca,
         type: 3}
@@ -19279,7 +19279,7 @@ PrefabInstance:
     - target: {fileID: 224650147265630386, guid: 271ac83bd0e2add4e93209a4adb073ca,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 132.16669
+      value: 132.16666
       objectReference: {fileID: 0}
     - target: {fileID: 224650147265630386, guid: 271ac83bd0e2add4e93209a4adb073ca,
         type: 3}
@@ -19309,7 +19309,7 @@ PrefabInstance:
     - target: {fileID: 224782304001939320, guid: 271ac83bd0e2add4e93209a4adb073ca,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 264.33337
+      value: 264.3333
       objectReference: {fileID: 0}
     - target: {fileID: 224782304001939320, guid: 271ac83bd0e2add4e93209a4adb073ca,
         type: 3}
@@ -19319,7 +19319,7 @@ PrefabInstance:
     - target: {fileID: 224782304001939320, guid: 271ac83bd0e2add4e93209a4adb073ca,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 398.50006
+      value: 398.49997
       objectReference: {fileID: 0}
     - target: {fileID: 224782304001939320, guid: 271ac83bd0e2add4e93209a4adb073ca,
         type: 3}

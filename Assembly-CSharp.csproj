@@ -108,8 +108,10 @@
     <Compile Include="Assets\2D Space Kit\Scripts\ExampleShipControl.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\PSDestroy.cs" />
     <Compile Include="Assets\Scripts\pipeGen.cs" />
+    <Compile Include="Assets\Horseanim.cs" />
     <Compile Include="Assets\Scripts\pause.cs" />
     <Compile Include="Assets\NewSimAssets\AppleUIAssistant.cs" />
+    <Compile Include="Assets\Scripts\carAnimScript.cs" />
     <Compile Include="Assets\Scripts\DestroyOnExit.cs" />
     <Compile Include="Assets\Scripts\theAudioSmapler.cs" />
     <Compile Include="Assets\2D Space Kit\Scripts\Projectile.cs" />
@@ -136,6 +138,7 @@
     <Compile Include="Assets\Scripts\PlayCont.cs" />
     <Compile Include="Assets\Candles\candleGlow.cs" />
     <Compile Include="Assets\Scripts\BOW.cs" />
+    <Compile Include="Assets\RabbitAnims\rabbitscript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\2D_Background_SunshineForest\2D_Horizontal_battle_Enviroment_05\Get full backgrounds pack.txt" />
